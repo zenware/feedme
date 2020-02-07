@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "feedme"
+version = "0.0.1"
+description = "CLI Food Finding Assistant"
+authors = ["Jay Looney <jay.m.looney@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zenware/feedme"
+repository = "https://github.com/zenware/feedme"
+keywords = ["feedme", "restaurant-finder", "food", "find", "lunch"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
