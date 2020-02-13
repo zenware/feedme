@@ -60,7 +60,7 @@ def safety(session: Session) -> None:
             "export",
             "--dev",
             "--format=requirements.txt",
-            "--without-hashes",  # Not sure why I need without hashes here
+            "--without-hashes",
             f"--output={requirements.name}",
             external=True,
         )
